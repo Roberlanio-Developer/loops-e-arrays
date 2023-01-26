@@ -11,9 +11,7 @@ public class Ex4_ParEImpar {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int quantNumeros;
-        int numero;
-        int quantPares = 0, quantImpares = 0;
+        int quantNumeros, numero, quantPares = 0, quantImpares = 0;
 
         System.out.println("Quantidade de números: ");
         quantNumeros = scan.nextInt();
