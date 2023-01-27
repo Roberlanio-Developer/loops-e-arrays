@@ -13,7 +13,7 @@ public class Ex4_ArrayMultidimensional {
 
         for(int i = 0; i < M.length; i++) {
             for( int j = 0; j < M[i].length; j++) {
-                M[i][j] = random.nextInt(9);
+                M[i][j] = random.nextInt(100);
             }
         }
 
